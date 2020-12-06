@@ -4,3 +4,7 @@ title = "Basix Blog"
 
 defaultContentLanguage = "ko"
 theme = "stack"
+
+[permalinks]
+blog = "/p/:slug/"
+page = "/:slug/"
