@@ -15,3 +15,6 @@ theme = "preferred-color-scheme"
 enabled = false
 local = false
 src = ""
+
+[sidebar]
+avatar = "img/basixlab.png"
