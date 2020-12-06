@@ -15,6 +15,7 @@ collections:
     create: true
     i18n: true
     slug: "{{year}}{{month}}{{day}}-{{slug}}"
+    preview_path: p/{{slug}}
     format: yaml-frontmatter
     fields:
       - label: Draft
