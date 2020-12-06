@@ -24,7 +24,7 @@ enabled = true
 default = "CC BY-NC-SA 4.0"
 
 [widgets]
-    enabled = ['search', 'archives', 'tag-cloud']
+    enabled = ['archives', 'tag-cloud']
     [widgets.archives]
         limit = 5
         path = "archives"       

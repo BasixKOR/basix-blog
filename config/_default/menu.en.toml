@@ -11,14 +11,8 @@ url = "/en/archives"
 weight = -70
 pre = "archives"
 [[main]]
-identifier = "search"
-name = "Search"
-url = "/en/search"
-weight = -60
-pre = "search"
-[[main]]
 identifier = "language"
-name = "Korean"
+name = "한국어"
 url = ""
 weight = -50
 pre = "language"
