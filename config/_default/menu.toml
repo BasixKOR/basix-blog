@@ -16,3 +16,9 @@ name = "검색"
 url = "search"
 weight = -60
 pre = "search"
+[[main]]
+identifier = "language"
+name = "English"
+url = "en"
+weight = -50
+pre = "language"
