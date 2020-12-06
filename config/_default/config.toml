@@ -1,0 +1,6 @@
+baseURL = "https://blog.basix.tech/"
+languageCode = "en-gb"
+title = "Basix Blog"
+
+defaultContentLanguage = "ko"
+theme = "stack"

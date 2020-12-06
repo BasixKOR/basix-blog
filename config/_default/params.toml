@@ -1,0 +1,17 @@
+mainSections = ["blog"]
+rssFullContent = true
+
+[comments]
+enabled = true
+provider = "utterances"
+
+[comments.utterances]
+repo = "BasixKOR/basix-blog"
+issueTerm = "pathname"
+label = "blog-comment"
+theme = "preferred-color-scheme"
+
+[defaultImage.opengraph]
+enabled = false
+local = false
+src = ""
