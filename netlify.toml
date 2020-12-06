@@ -2,6 +2,9 @@
 publish = "public"
 command = "hugo --gc --minify"
 
+[[plugins]]
+package = "netlify-plugin-hugo-cache-resources"
+
 [context.production.environment]
 HUGO_VERSION = "0.79.0"
 HUGO_ENV = "production"
