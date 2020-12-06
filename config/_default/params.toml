@@ -18,3 +18,15 @@ src = ""
 
 [sidebar]
 avatar = "img/basixlab.png"
+
+[article.license]
+enabled = true 
+default = "CC BY-NC-SA 4.0"
+
+[widgets]
+    enabled = ['search', 'archives', 'tag-cloud']
+    [widgets.archives]
+        limit = 5
+        path = "archives"       
+    [widgets.tagCloud]
+        limit = 10
