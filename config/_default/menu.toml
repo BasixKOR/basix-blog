@@ -1,0 +1,18 @@
+[[main]]
+identifier = "home"
+name = "홈"
+url = "/"
+weight = -100
+pre = "home"
+[[main]]
+identifier = "archives"
+name = "보관함"
+url = "archives"
+weight = -70
+pre = "archives"
+[[main]]
+identifier = "search"
+name = "검색"
+url = "search"
+weight = -60
+pre = "search"
