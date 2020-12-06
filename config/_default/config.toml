@@ -21,3 +21,8 @@ weight = 100
 [[related.indices]]
 name = "categories"
 weight = 200
+
+[markup.tableOfContents]
+endLevel = 3
+ordered = true
+startLevel = 1
