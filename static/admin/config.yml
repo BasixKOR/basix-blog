@@ -20,7 +20,7 @@ collections:
     fields:
       - label: Draft
         name: draft
-        widget: booleanoo
+        widget: boolean
         i18n: true
         default: true 
       - label: Title
@@ -57,3 +57,11 @@ collections:
         name: body
         widget: markdown
         i18n: true
+  - name: categories
+    label: Categories
+    folder: content/categories
+    i18n: true
+    format: yaml-frontmatter
+    fields:
+      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Description, name: description, widget: string, i18n: true}
