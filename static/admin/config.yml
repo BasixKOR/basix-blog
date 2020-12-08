@@ -59,6 +59,9 @@ collections:
   - name: categories
     label: Categories
     folder: content/categories
+    path: '{{slug}}/_index.md'
+    media_folder: ''
+    public_folder: ''
     create: true
     i18n: true
     identifier_field: slug
@@ -66,4 +69,5 @@ collections:
     fields:
       - { label: Title, name: title, widget: string, i18n: true }
       - { label: Description, name: description, widget: string, i18n: true }
+      - { label: Image, name: image, widget: image, i18n: duplicate }
       - { label: Slug, name: slug, widget: string, i18n: duplicate }
