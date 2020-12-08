@@ -61,7 +61,9 @@ collections:
     folder: content/categories
     create: true
     i18n: true
+    identifier_field: slug
     format: yaml-frontmatter
     fields:
       - { label: Title, name: title, widget: string, i18n: true }
-      - { label: Description, name: description, widget: string, i18n: true}
+      - { label: Description, name: description, widget: string, i18n: true }
+      - { label: Slug, name: slug, widget: string, i18n: duplicate }
