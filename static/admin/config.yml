@@ -14,8 +14,8 @@ collections:
     folder: content/blog
     create: true
     i18n: true
-    slug: "{{year}}{{month}}{{day}}-{{slug}}"
-    preview_path: p/{{slug}}
+    identifier_field: slug
+    preview_path: p/{{fields.slug}}
     format: yaml-frontmatter
     fields:
       - label: Draft
@@ -35,7 +35,6 @@ collections:
         name: slug
         widget: string
         i18n: duplicate
-        required: false
       - label: Publish Date
         name: date
         widget: datetime
@@ -60,6 +59,7 @@ collections:
   - name: categories
     label: Categories
     folder: content/categories
+    create: true
     i18n: true
     format: yaml-frontmatter
     fields:
